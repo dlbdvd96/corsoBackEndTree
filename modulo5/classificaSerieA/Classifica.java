@@ -103,9 +103,7 @@ public class Classifica {
 
             //CASO IN CUI GLI ELEMENTI DELL'ARRAY DI DESTRA E DI SINISTRA SONO null
             if(sinistra[i] == null && destra[j] == null){
-                i++;
-                j++;
-                continue;
+                break;
             }
 
             //CASO IN CUI GLI ELEMENTI DELL'ARRAY DI DESTRA E DI SINISTRA SONO VALIDI
